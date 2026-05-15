@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Namma-Platform</string>
+
+    <!-- Home screen -->
+    <string name="title_pick_station_kn">ನಿಮ್ಮ ನಿಲ್ದಾಣ ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="title_pick_station_en">Select your station</string>
+
+    <!-- Platform screen -->
+    <string name="label_next_trains">ಮುಂದಿನ 3 ರೈಲುಗಳು  •  Next 3 Trains</string>
+    <string name="label_platform_short">PF</string>
+    <string name="hint_coach_strip">ಎಲ್ಲಿ ನಿಲ್ಲಬೇಕು  •  Where to stand</string>
+    <string name="msg_no_trains">ಇಂದು ಇನ್ನೂ ಯಾವುದೇ ರೈಲು ಇಲ್ಲ.\nNo more trains today.</string>
+
+    <!-- Selected train header (Kannada name + platform number) -->
+    <string name="fmt_selected_train">%1$s — ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ %2$d</string>
+
+    <!-- Help-Me button -->
+    <string name="btn_help_speak">📢  ಕನ್ನಡದಲ್ಲಿ ಕೇಳಿ\n(Tap to hear in Kannada)</string>
+
+    <!-- TTS announcement templates -->
+    <!-- Kannada: "Attention! Train <name> will arrive at platform <n>. Time <hh:mm>." -->
+    <string name="tts_kn">ಗಮನಿಸಿ. ರೈಲು %1$s ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಸಂಖ್ಯೆ %2$d ಗೆ ಬರಲಿದೆ. ಸಮಯ %3$s.</string>
+    <string name="tts_en">Attention. Train %1$s will arrive on platform number %2$d at %3$s.</string>
+
+    <!-- Errors / warnings -->
+    <string name="err_no_station">No station selected.</string>
+    <string name="err_no_train">No train selected.</string>
+    <string name="err_tts_unavailable">Text-to-Speech is not available on this device.</string>
+    <string name="warn_no_kannada">ಕನ್ನಡ ಧ್ವನಿ ಲಭ್ಯವಿಲ್ಲ. Kannada voice not installed — using fallback.</string>
+</resources>

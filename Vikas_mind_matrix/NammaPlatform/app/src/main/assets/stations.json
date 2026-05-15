@@ -1,0 +1,144 @@
+{
+  "stations": [
+    {
+      "id": "MYS",
+      "nameEn": "Mysuru Junction",
+      "nameKn": "ಮೈಸೂರು ಜಂಕ್ಷನ್",
+      "trains": [
+        {
+          "trainNo": "16022",
+          "nameEn": "Kaveri Express",
+          "nameKn": "ಕಾವೇರಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": 2,
+          "departure": "06:30",
+          "coaches": ["ENGINE","SLR","GEN","GEN","LADIES","S1","S2","S3","S4","B1","A1","SLR"]
+        },
+        {
+          "trainNo": "12614",
+          "nameEn": "Tippu Express",
+          "nameKn": "ಟಿಪ್ಪು ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": 1,
+          "departure": "11:15",
+          "coaches": ["ENGINE","SLR","GEN","GEN","S1","S2","S3","B1","B2","A1","PANTRY","SLR"]
+        },
+        {
+          "trainNo": "16210",
+          "nameEn": "Ajmer Express",
+          "nameKn": "ಅಜ್ಮೀರ್ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": 3,
+          "departure": "14:45",
+          "coaches": ["ENGINE","SLR","GEN","LADIES","S1","S2","S3","S4","S5","B1","A1","SLR"]
+        },
+        {
+          "trainNo": "16515",
+          "nameEn": "Karwar Express",
+          "nameKn": "ಕಾರವಾರ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": 2,
+          "departure": "19:20",
+          "coaches": ["ENGINE","SLR","GEN","GEN","S1","S2","B1","A1","SLR"]
+        },
+        {
+          "trainNo": "12008",
+          "nameEn": "Shatabdi Express",
+          "nameKn": "ಶತಾಬ್ದಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": 1,
+          "departure": "23:10",
+          "coaches": ["ENGINE","SLR","GEN","S1","B1","B2","A1","PANTRY","SLR"]
+        }
+      ]
+    },
+    {
+      "id": "SBC",
+      "nameEn": "KSR Bengaluru",
+      "nameKn": "ಕೆಎಸ್‌ಆರ್ ಬೆಂಗಳೂರು",
+      "trains": [
+        {
+          "trainNo": "12628",
+          "nameEn": "Karnataka Express",
+          "nameKn": "ಕರ್ನಾಟಕ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": 5,
+          "departure": "07:00",
+          "coaches": ["ENGINE","SLR","GEN","GEN","LADIES","S1","S2","S3","S4","B1","B2","A1","H1","PANTRY","SLR"]
+        },
+        {
+          "trainNo": "16526",
+          "nameEn": "Island Express",
+          "nameKn": "ಐಲ್ಯಾಂಡ್ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": 3,
+          "departure": "12:30",
+          "coaches": ["ENGINE","SLR","GEN","GEN","S1","S2","S3","B1","A1","SLR"]
+        },
+        {
+          "trainNo": "22691",
+          "nameEn": "Rajdhani Express",
+          "nameKn": "ರಾಜಧಾನಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": 1,
+          "departure": "20:00",
+          "coaches": ["ENGINE","SLR","B1","B2","B3","A1","A2","H1","PANTRY","SLR"]
+        }
+      ]
+    },
+    {
+      "id": "MAQ",
+      "nameEn": "Mangaluru Central",
+      "nameKn": "ಮಂಗಳೂರು ಸೆಂಟ್ರಲ್",
+      "trains": [
+        {
+          "trainNo": "12978",
+          "nameEn": "Marusagar Express",
+          "nameKn": "ಮರುಸಾಗರ್ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": 2,
+          "departure": "08:45",
+          "coaches": ["ENGINE","SLR","GEN","GEN","LADIES","S1","S2","S3","B1","A1","SLR"]
+        },
+        {
+          "trainNo": "16575",
+          "nameEn": "Gomateshwar Express",
+          "nameKn": "ಗೋಮಟೇಶ್ವರ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": 1,
+          "departure": "15:00",
+          "coaches": ["ENGINE","SLR","GEN","S1","S2","B1","SLR"]
+        },
+        {
+          "trainNo": "16345",
+          "nameEn": "Netravati Express",
+          "nameKn": "ನೇತ್ರಾವತಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": 3,
+          "departure": "21:30",
+          "coaches": ["ENGINE","SLR","GEN","GEN","S1","S2","S3","B1","B2","A1","PANTRY","SLR"]
+        }
+      ]
+    },
+    {
+      "id": "UBL",
+      "nameEn": "Hubballi Junction",
+      "nameKn": "ಹುಬ್ಬಳ್ಳಿ ಜಂಕ್ಷನ್",
+      "trains": [
+        {
+          "trainNo": "17326",
+          "nameEn": "Vishwamanava Express",
+          "nameKn": "ವಿಶ್ವಮಾನವ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": 2,
+          "departure": "09:30",
+          "coaches": ["ENGINE","SLR","GEN","GEN","S1","S2","B1","A1","SLR"]
+        },
+        {
+          "trainNo": "11036",
+          "nameEn": "Sharavati Express",
+          "nameKn": "ಶರಾವತಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": 1,
+          "departure": "16:10",
+          "coaches": ["ENGINE","SLR","GEN","LADIES","S1","S2","S3","B1","SLR"]
+        },
+        {
+          "trainNo": "16590",
+          "nameEn": "Rani Chennamma Express",
+          "nameKn": "ರಾಣಿ ಚೆನ್ನಮ್ಮ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+          "platform": 3,
+          "departure": "22:00",
+          "coaches": ["ENGINE","SLR","GEN","GEN","S1","S2","B1","A1","PANTRY","SLR"]
+        }
+      ]
+    }
+  ]
+}

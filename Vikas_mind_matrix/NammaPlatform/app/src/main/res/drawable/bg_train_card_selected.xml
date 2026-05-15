@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Train card — selected variant (when user taps a train) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/brand_blue" />
+    <stroke android:width="3dp" android:color="@color/brand_yellow" />
+    <corners android:radius="10dp" />
+</shape>

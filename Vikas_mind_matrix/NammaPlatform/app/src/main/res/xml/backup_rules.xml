@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Allow auto-backup of app data. Nothing sensitive is stored, so the
+  default policy is fine. Required because the manifest references it.
+-->
+<full-backup-content />

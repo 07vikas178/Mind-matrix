@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LADIES coach: pink, also visually distinct -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/coach_ladies" />
+    <stroke android:width="2dp" android:color="@color/brand_blue_dark" />
+    <corners android:radius="6dp" />
+</shape>

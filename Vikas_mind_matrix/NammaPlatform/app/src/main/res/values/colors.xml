@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand palette: high-contrast Blue / Yellow per PDF -->
+    <color name="brand_blue_dark">#0B2D5B</color>      <!-- ~Indian Railways navy -->
+    <color name="brand_blue">#163E7A</color>
+    <color name="brand_yellow">#FFD400</color>         <!-- vivid yellow -->
+    <color name="brand_yellow_pressed">#E6BE00</color>
+    <color name="brand_yellow_muted">#7A6500</color>
+
+    <!-- Coach tile palette -->
+    <color name="coach_ladies">#FF80AB</color>         <!-- pink -->
+    <color name="coach_other">#9CC0F2</color>          <!-- light blue -->
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

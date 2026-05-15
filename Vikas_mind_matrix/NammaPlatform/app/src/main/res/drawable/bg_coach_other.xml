@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Other coaches (S1, B1, A1, etc): light blue -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/coach_other" />
+    <stroke android:width="1dp" android:color="@color/brand_blue_dark" />
+    <corners android:radius="6dp" />
+</shape>

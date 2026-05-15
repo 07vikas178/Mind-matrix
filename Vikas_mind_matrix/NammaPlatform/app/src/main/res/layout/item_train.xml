@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="4dp"
+    android:background="@drawable/selector_train_card"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="12dp"
+    android:minHeight="68dp">
+
+    <!-- Platform number — big yellow square on the right -->
+    <LinearLayout
+        android:id="@+id/platformBox"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@color/brand_yellow"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_platform_short"
+            android:textColor="@color/brand_blue_dark"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvPlatform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brand_blue_dark"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            tools:text="2" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTrainNameKn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/brand_yellow"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="ಕಾವೇರಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/platformBox" />
+
+    <TextView
+        android:id="@+id/tvTrainNameEn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        tools:text="16022 • Kaveri Express"
+        app:layout_constraintTop_toBottomOf="@id/tvTrainNameKn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/platformBox" />
+
+    <TextView
+        android:id="@+id/tvDeparture"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/brand_yellow"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="10:30"
+        app:layout_constraintTop_toBottomOf="@id/tvTrainNameEn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/platformBox" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

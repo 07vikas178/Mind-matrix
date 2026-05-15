@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  State-list selector for the train card. Switches between the
+  "selected" (highlighted) and default backgrounds based on the
+  view's android:isSelected state, which is driven by TrainAdapter.
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/bg_train_card_selected" />
+    <item android:drawable="@drawable/bg_train_card_default" />
+</selector>
